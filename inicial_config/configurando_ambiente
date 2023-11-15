@@ -13,3 +13,5 @@ def testar_coisas():
 pytest test_nome_arquivo.py
 ou
 pytest -v test_nome_arquivo.py # Para um output mais verboso
+
+pytest -v test_pedro_neto.py::test_one # Espeficando qual teste dentro do arquivo quero rodar.
