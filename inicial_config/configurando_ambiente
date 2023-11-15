@@ -1,0 +1,15 @@
+1- Tenha pytest instalado
+
+2- Crie uma pasta que inicie com nome test
+
+3- crie um arquivo que inicie com test_ ou termine com _test
+
+4- crie a função para test dentro do arquivo, que inicie com test_ como por exemplo:
+
+def testar_coisas():
+    assert 1 ==1
+
+5 - exeistem várias formas de rodar os testes, uma delas é:
+pytest test_nome_arquivo.py
+ou
+pytest -v test_nome_arquivo.py # Para um output mais verboso
