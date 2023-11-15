@@ -9,9 +9,26 @@
 def testar_coisas():
     assert 1 ==1
 
-5 - exeistem várias formas de rodar os testes, uma delas é:
+5 - existem várias formas de rodar os testes, uma delas é:
+
 pytest test_nome_arquivo.py
-ou
+
 pytest -v test_nome_arquivo.py # Para um output mais verboso
 
 pytest -v test_pedro_neto.py::test_one # Espeficando qual teste dentro do arquivo quero rodar.
+
+6 - Classes costumam chamar Test<nome>:
+
+7- Saídas:
+
+Passed(.): Teste rodou com sucesso
+
+Failed(F): Teste falhou
+
+SKIPPED(s): Teste foi pulado, para isso usa-se um decorator @pytest.mark.skip()
+
+XFAIL(x): O teste não era esperado ter sucesso e não teve mesmo, @pytest.mark.xfail()
+
+XPASS(X): O teste foi marcado com xfail mas passou corretamente
+
+ERROR(E): Aconteceu algum erro que não durante a execução do teste.
