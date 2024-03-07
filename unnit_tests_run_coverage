@@ -1,0 +1,1 @@
+PYTHONPATH=src coverage run --omit="/usr/lib/python3/dist-packages/*,test/*" -m unittest
