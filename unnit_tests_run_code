@@ -1,1 +1,5 @@
 PYTHONPATH=src python3 -m unittest test/test_sfdc_account_sync.py 
+
+
+PYTHONPATH=src coverage run --omit="/usr/lib/python3/dist-packages/*,test/*" -m unittest
+
