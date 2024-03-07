@@ -1,1 +1,5 @@
+Rodar os 2 em sequencia
+
 PYTHONPATH=src coverage run --omit="/usr/lib/python3/dist-packages/*,test/*" -m unittest
+
+PYTHONPATH=src python3 -m coverage report -m
