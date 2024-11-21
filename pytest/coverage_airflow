@@ -1,0 +1,1 @@
+astro dev pytest --args "--cov=dags --cov-report xml:include/coverage.xml --cov-report term"
