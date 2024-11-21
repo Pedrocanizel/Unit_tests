@@ -1,1 +1,3 @@
 astro dev pytest --args "--cov=dags --cov-report xml:include/coverage.xml --cov-report term"
+
+astro dev pytest --args "--cov=dags --cov-report term-missing --cov-report xml:include/coverage.xml --cov-fail-under=90"
